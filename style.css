@@ -1,40 +1,29 @@
-html {
+body {
   font-family: 'Poppins', sans-serif;
 }
 
-.gradient-bg {
-  background: linear-gradient(to right, #f5f3ff, #eff6ff);
-}
-
-.feature-box:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
-  transition: all 0.3s ease-in-out;
-}
-
-.cta-button {
-  background: linear-gradient(to right, #7e22ce, #2563eb);
+.button {
+  background-color: #7c3aed;
   color: white;
-  padding: 0.75rem 2rem;
-  border-radius: 0.5rem;
+  padding: 0.6rem 1.2rem;
+  border-radius: 6px;
   font-weight: 600;
-  transition: background 0.3s ease;
-  display: inline-block;
+  text-decoration: none;
 }
 
-.cta-button:hover {
-  background: linear-gradient(to right, #6b21a8, #1d4ed8);
+.button.alt {
+  background-color: transparent;
+  color: #7c3aed;
+  border: 2px solid #7c3aed;
 }
 
-.step-circle {
-  background: #7c3aed;
-  color: white;
-  height: 48px;
-  width: 48px;
-  border-radius: 9999px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-weight: bold;
-  margin: 0 auto 1rem;
+nav {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+nav a {
+  margin-right: 1rem;
+  font-weight: 500;
+  text-decoration: none;
 }
