@@ -1,5 +1,0 @@
-{
-  "build": {
-    "builder": "@railway/builders-static"
-  }
-}
