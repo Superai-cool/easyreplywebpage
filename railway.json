@@ -1,8 +1,10 @@
 {
-  "build": {
-    "builder": "static"
+  "name": "easyreplywebpage",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "serve ."
   },
-  "deploy": {
-    "startCommand": ""
+  "dependencies": {
+    "serve": "^14.2.0"
   }
 }
